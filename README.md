@@ -19,7 +19,7 @@ this app made by using these packages
 > openweathermap
 
 add new user to system 
-> open the POSTMAN and create a new http request, and insert this link https://node-js-backend-application-whether-app.vercel.app/api/add-new-user
+> open the POSTMAN and create a new http request in post method, and insert this link https://node-js-backend-application-whether-app.vercel.app/api/add-new-user
 
 add the data in json file format
 > {
@@ -28,7 +28,7 @@ add the data in json file format
 }
 
 update user location
-> open the POSTMAN and create a new http request, and insert this link https://node-js-backend-application-whether-app.vercel.app/api/update-user
+> open the POSTMAN and create a new http request in post method, and insert this link https://node-js-backend-application-whether-app.vercel.app/api/update-user
 
 add the data in json file format
 > {
@@ -37,7 +37,7 @@ add the data in json file format
 }
 
 get data by date 
-> open the POSTMAN and create a new http request, and insert this link https://node-js-backend-application-whether-app.vercel.app/api/get-user-data
+> open the POSTMAN and create a new http request in post method, and insert this link https://node-js-backend-application-whether-app.vercel.app/api/get-user-data
 
 add the data in json file format
 > {
