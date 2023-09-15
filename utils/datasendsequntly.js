@@ -4,7 +4,7 @@ const whetherData = require("..//utils/getWheatherData");
 const { sendWeatherReport } = require("../utils/sendWheatherData");
 const saveData = require("../controllers/userDatasave");
 
-var sendEmailAutomatically = new CronJob("0 0 */3 * * *", async () => {
+var sendEmailAutomatically = new CronJob("* 0/3 * * *", async () => {
   try {
     const users = await User.find({});
 
